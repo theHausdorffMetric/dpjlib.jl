@@ -23,4 +23,3 @@ function asian_main(F,K, sigma, m,n, nruns)
      (xm, sigma_xm)
 end
 
-end # module
