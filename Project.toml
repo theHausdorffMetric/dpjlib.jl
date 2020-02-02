@@ -1,0 +1,4 @@
+name = "dpjlib"
+uuid = "118fe5ca-07a3-471e-bd46-c0ce8294b10a"
+authors = ["Daniel Probst <daniel.probst@gmail.com>"]
+version = "0.1.0"
