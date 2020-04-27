@@ -9,7 +9,7 @@ function v_asian_bm_sample(X₀, K, r, σ, m, n)
     exp(-r*(m+n)*Δ)*max(x̂/n - K, 0)
 end
 
-function asian_gbm(F, K, r, sigma, m, n, nruns)
+function asian_bm(F, K, r, sigma, m, n, nruns)
         xm = v_asian_bm_sample(F,K,r,sigma,m,n)
         S = zero(typeof(xm))
      for i in 2:nruns
